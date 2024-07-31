@@ -20,7 +20,6 @@ public class ErrorValidation extends BaseTest {
 
 	@Test(groups = {"errorHandling"}, retryAnalyzer=TestComponent.Retry.class)
 	public void loginErrorValidation() throws IOException {
-		//new comment to test CI CD project
 //		| not needed the object because "landpage" already exist in class BaseTest
 		LandingPage landpage = launchApplication();
 		// Login
@@ -31,6 +30,7 @@ public class ErrorValidation extends BaseTest {
 
 	@Test
 	public void productErrorValidation() throws IOException {
+		//new comment to test CI CD project
 		LandingPage landpage = launchApplication();
 		String productName = "ZARA COAT 3";
 		Actions a = new Actions(driver);
