@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-28T16:42:03 WIB" name="Suite" finished-at="2024-07-28T16:42:47 WIB" duration-ms="43865">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest2.submitOrder(java.util.HashMap)[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" name="submitOrder" class="FwProjectParent.SubmitOrderTest2"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-07-28T16:42:03 WIB" name="Submit Order Test" finished-at="2024-07-28T16:42:47 WIB" duration-ms="43865">
+      <class name="FwProjectParent.SubmitOrderTest2">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:04 WIB" name="submitOrder" data-provider="getData" finished-at="2024-07-28T16:42:22 WIB" duration-ms="18547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=@Test123, email=usertest123@mail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:22 WIB" name="closeWindow" finished-at="2024-07-28T16:42:23 WIB" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:23 WIB" name="submitOrder" data-provider="getData" finished-at="2024-07-28T16:42:39 WIB" duration-ms="16043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=@Test1234, email=arieftest123@mail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:39 WIB" name="closeWindow" finished-at="2024-07-28T16:42:40 WIB" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:40 WIB" name="orderHistoryTest" finished-at="2024-07-28T16:42:46 WIB" depends-on-methods="FwProjectParent.SubmitOrderTest2.submitOrder" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:FwProjectParent.SubmitOrderTest2@7ce69770]" started-at="2024-07-28T16:42:46 WIB" name="closeWindow" finished-at="2024-07-28T16:42:47 WIB" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- FwProjectParent.SubmitOrderTest2 -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

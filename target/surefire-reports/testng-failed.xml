@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Error Validations Test(failed)" verbose="0">
+    <classes>
+      <class name="FwProjectParent.ErrorValidation">
+        <methods>
+          <include name="loginErrorValidation"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- FwProjectParent.ErrorValidation -->
+    </classes>
+  </test> <!-- Error Validations Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
