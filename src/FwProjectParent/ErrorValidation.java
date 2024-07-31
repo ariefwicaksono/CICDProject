@@ -20,6 +20,7 @@ public class ErrorValidation extends BaseTest {
 
 	@Test(groups = {"errorHandling"}, retryAnalyzer=TestComponent.Retry.class)
 	public void loginErrorValidation() throws IOException {
+		//new comment to test CI CD project
 //		| not needed the object because "landpage" already exist in class BaseTest
 		LandingPage landpage = launchApplication();
 		// Login
@@ -44,5 +45,6 @@ public class ErrorValidation extends BaseTest {
 		Boolean match = co.cartValidation("zar");
 		Assert.assertFalse(match);
 	}
+	
 
 }
